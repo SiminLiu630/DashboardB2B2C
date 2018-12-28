@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin-dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Simin css -->
+    <link rel="stylesheet" href="css/simin.css">
+     <!-- Font Awesome 5.6.3-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- Google fonts Quicksand -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+<body>
+<header class="top-bar">
+ <div class='logo-container'>
+    <a href="#" class="logo">
+    <img src="/img/logo_brokeritaly.png" alt="">
+    </a>
+    <!-- <div class="toggle">
+        <i class="fas fa-bars menu"></i>
+    </div> -->
+ </div> 
+<div class="top-menu-controls">
+    <div>
+        <a class="messages-notifications" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="far fa-bell"></i> 
+            <div class="new-messages-count">2</div>
+        </a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item dropdown-item-news" href="#">Deve firmare la polizza</a>
+            <a class="dropdown-item dropdown-item-news" href="#">Benvenuto Cassa Forense Dashboard</a>
+        </div>
+    </div>
+   
+    <div class='portfolio-user'>
+        <div class='portfolio-user-i'>
+            <div class='avatar-w'>
+            <img src="img/man (1).png" alt="" width="30px" height="30px">
+            </div>
+        </div>
+    </div>
+    <div class='name-user'>
+        <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Hi, Broker Marco </a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Log out <i class="fas fa-sign-out-alt"></i> </a>
+        </div>
+    </div>
+    </div>
+</header>
+<div class="content">
+<div class="content-box container">
+    <div class="row">
+        <div class="col-12 col-sm-7">
+            <div class="content-box-header">
+            <h3 class="element-header"> Overview</h3>
+            <h6 class="element-button"> <a href="#">Completa Ora</a></h6>
+            </div>
+            <div class='element-box'>
+            </div>
+        </div>
+        <div class="col-12 col-sm-5">
+            <div class="content-box-header">
+                <h3 class="element-header"> Policy Timeline</h3>
+                <h6>
+                    ID Preventivo: 
+                    <span class='blu blod'>6L3BXB</span>
+                </h6>
+            </div>
+            <div class='element-box'>
+                <div class="progress-data">
+                <div class='data data-inizio'>
+                    <h6 class="data-header">Data di inizio</h6>
+                    <span class="blu blod">12/12/2018</span>
+                </div>
+                <div class="data data-scadenza">
+                    <h6 class="data-header">Data di scadenza</h6>
+                    <span class="blu blod">12/12/2019</span> 
+                </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                 </div>
+            </div>
+         </div>
+    </div>
+</div>
+<div class="content-box container">
+    <div class="row">
+        <div class="col-12 col-sm-7">
+            <div class="content-box-header">
+               <h3 class="element-header">Dettagli Preventivo</h3>
+            </div>
+            <div class='element-box'>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">La presente attività è in uno stato di : <span class='blu blod'>Emesso</span> in data  <span class='blu blod'>12/12/2018</span> </li>
+                    <li class="list-group-item">La data di creazione :   <span class='blu blod'>12/12/2018</span> </li>
+                    <li class="list-group-item">La data inizio rischi:   <span class='blu blod'>12/12/2018</span> </li>
+                    <li class="list-group-item">La data inizio rischi:   <span class='blu blod'>12/12/2018</span> </li>
+                    <li class="list-group-item">Premio lordo incluso tasse :  € <span class='blu blod'> 135,00</span> </li>
+                    <li class="list-group-item download-element">
+                        <a href="">
+                            <span><i class="fas fa-download"></i></span> Scarica il contratto
+                        </a>
+                    </li>
+                  </ul>
+            </div>  
+        </div>
+        <div class="col-12 col-sm-5">
+            <div class="widget widget-notifica">
+                <div class="content-box-header">
+                <h3 class="element-header">Notifica</h3>
+                </div>
+                <div class='element-box'>
+                    <ul class="list-notifica">
+                        <li class="list-notifica-element">
+                            <div>         
+                                <span class='data-notifica'>20/12/2018  17:48pm</span>
+                                <h6>Deve firmare la polizza</h6>
+                            </div>
+                            <div class='list-notifica-element-button'>
+                            <a href="#">Visualizza</a>
+                            </div>
+                        </li>
+                        <li class="list-notifica-element">
+                            <div>         
+                                <span class='data-notifica'>20/12/2018  10:00am</span>
+                                <h6>Registrato nel nostro sistema</h6>
+                            </div>
+                            <div class='list-notifica-element-button'>
+                            <a href="#">Visualizza</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class='widget widget-storia'>
+                <div class="content-box-header">
+                <h3 class="element-header">Storia</h3>
+                </div>
+                <div class='element-box'>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">ID Preventivo</th>
+                                <th scope="col">Data di inzio</th>
+                                <th scope="col">Data di scadenza</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">6L3BXB</th>
+                                <td>12/12/2018</td>
+                                <td>12/12/2019</td>
+                            </tr>
+                        </tbody>
+                    </table>        
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
